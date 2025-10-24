@@ -6,6 +6,7 @@ body {
   padding-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
   
 
@@ -18,7 +19,6 @@ body {
   background-color: #A8F0EF;
 }
 #abc{
-  margin-bottom: 0px;
   font-weight: normal;
 }
 #abcd{
@@ -29,11 +29,12 @@ body {
   border: 5px;
   border-style: solid;
   border-color: #0A7D7F;
+  float: left;
   background-color: #3FE0D0;
   text-align: left;
   width: 220px;
   margin-left: 20px;
-  display: inline-block;
+
 }
 #friends{
   margin-left: 30px;
@@ -42,15 +43,48 @@ body {
   
 }
 #righttop{
-  display: inline-block;
-  display: flex;
   background-color: #E8FAFA;
   border: 5px;
+  float: right;
+  margin-left: 20px;
   border-style: solid;
   border-color:#C3E7EA;
-  width: 1500px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   
 }
 #sp{
-  display: inline;
+  float: right;
+  
+}
+#cookies{
+  float:right;
+  height: 150px;
+  width: 200px;
+}
+
+#heading1{
+  color: #3CABA8;
+  font-weight: normal;
+}
+#heading2{
+  color: #3CABA8;
+  font-weight: normal;
+}
+#bottomright{
+  background-color: #E8FAFA;
+  border: 5px;
+  margin-left: 20px;
+  border-style: solid;
+  float: right;
+  border-color:#C3E7EA;
+  width: 832px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  
+}
+#main::after { 
+    content: ""; 
+    display: block;
+    clear: both;
 }
